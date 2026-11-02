@@ -1,0 +1,39 @@
+СЭДМ — программная система экспертной дегустации мёда
+Сведения о сторонних компонентах, входящих в дистрибутив
+=====================================================================
+
+1. Qt 5.15.2 (модули Core, Gui, Widgets, Sql, Svg, PrintSupport)
+   The Qt Company Ltd. Лицензия GNU LGPL версии 3.
+   Библиотеки Qt подключаются динамически (файлы Qt5*.dll и каталоги
+   platforms, styles, imageformats, iconengines, printsupport, sqldrivers);
+   их можно заменить совместимыми версиями. Исходные тексты Qt:
+   https://download.qt.io/archive/qt/5.15/5.15.2/single/
+
+2. QXlsx 1.5.1.1 — чтение и запись книг Excel (XLSX).
+   Copyright (c) 2017-2024 QtExcel. Лицензия MIT.
+   https://github.com/QtExcel/QXlsx
+
+3. crypt_blowfish 1.3 — хэширование bcrypt.
+   Solar Designer, Openwall. Передано в общественное достояние
+   (при невозможности — лицензия без ограничений, см. исходный текст).
+   https://www.openwall.com/crypt/
+
+4. libpq — клиентская библиотека PostgreSQL.
+   Версия x64 — из PostgreSQL 18, версия x86 — из PostgreSQL 10.23.
+   PostgreSQL Global Development Group. Лицензия PostgreSQL License.
+   https://www.postgresql.org/about/licence/
+   Сопутствующие библиотеки: OpenSSL (x64 — версия 3, лицензия Apache 2.0;
+   x86 — версия 1.1.1, лицензия OpenSSL/SSLeay), GNU gettext libintl и
+   GNU libiconv (лицензия GNU LGPL).
+
+5. Среда выполнения MinGW-w64 (GCC 8.1): libgcc, libstdc++ — лицензия
+   GNU GPL v3 с исключением для библиотеки времени выполнения GCC;
+   libwinpthread — лицензия MIT/BSD.
+
+6. Распространяемые пакеты Microsoft Visual C++ (2015–2022 x64, 2013 x86)
+   устанавливаются на условиях лицензии Microsoft, только если среда
+   выполнения отсутствует в системе.
+
+Сама программа СЭДМ разработана в рамках курсовой работы по дисциплине
+«Технология разработки программных систем», МГТУ им. Н.Э. Баумана,
+кафедра ИУ6, группа ИУ6-73Б, 2026 г.

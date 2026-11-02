@@ -1,0 +1,34 @@
+<!DOCTYPE RCC>
+<!-- Ресурсы общих элементов интерфейса: тема, логотип, значки -->
+<RCC version="1.0">
+    <qresource prefix="/widgets">
+        <file alias="theme.qss">widgets/theme.qss</file>
+        <file alias="logo_dark.svg">widgets/logo_dark.svg</file>
+        <file alias="logo_light.svg">widgets/logo_light.svg</file>
+        <file alias="icons/backup.svg">widgets/icons/backup.svg</file>
+        <file alias="icons/baskets.svg">widgets/icons/baskets.svg</file>
+        <file alias="icons/check.svg">widgets/icons/check.svg</file>
+        <file alias="icons/empty.svg">widgets/icons/empty.svg</file>
+        <file alias="icons/export.svg">widgets/icons/export.svg</file>
+        <file alias="icons/help.svg">widgets/icons/help.svg</file>
+        <file alias="icons/import.svg">widgets/icons/import.svg</file>
+        <file alias="icons/lock.svg">widgets/icons/lock.svg</file>
+        <file alias="icons/logout.svg">widgets/icons/logout.svg</file>
+        <file alias="icons/msg_info.svg">widgets/icons/msg_info.svg</file>
+        <file alias="icons/msg_warning.svg">widgets/icons/msg_warning.svg</file>
+        <file alias="icons/msg_error.svg">widgets/icons/msg_error.svg</file>
+        <file alias="icons/msg_question.svg">widgets/icons/msg_question.svg</file>
+        <file alias="icons/monitoring.svg">widgets/icons/monitoring.svg</file>
+        <file alias="icons/nominations.svg">widgets/icons/nominations.svg</file>
+        <file alias="icons/partial.svg">widgets/icons/partial.svg</file>
+        <file alias="icons/participants.svg">widgets/icons/participants.svg</file>
+        <file alias="icons/print.svg">widgets/icons/print.svg</file>
+        <file alias="icons/refresh.svg">widgets/icons/refresh.svg</file>
+        <file alias="icons/results.svg">widgets/icons/results.svg</file>
+        <file alias="icons/samples.svg">widgets/icons/samples.svg</file>
+        <file alias="icons/search.svg">widgets/icons/search.svg</file>
+        <file alias="icons/session.svg">widgets/icons/session.svg</file>
+        <file alias="icons/teams.svg">widgets/icons/teams.svg</file>
+        <file alias="icons/tick.svg">widgets/icons/tick.svg</file>
+    </qresource>
+</RCC>

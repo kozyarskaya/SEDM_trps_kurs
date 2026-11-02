@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="48" viewBox="0 0 56 48">
+  <!-- Логотип СЭДМ для тёмного фона: медовая сота и пчёлка -->
+  <path d="M22 7 L38.45 16.5 L38.45 35.5 L22 45 L5.55 35.5 L5.55 16.5 Z" fill="#E8A317" stroke="#FBF3E4" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M22 16 L30.66 21 L30.66 31 L22 36 L13.34 31 L13.34 21 Z" fill="none" stroke="#3B2A1A" stroke-width="1.8" stroke-linejoin="round"/>
+  <g transform="translate(1 -2) rotate(-12 45 12)">
+    <ellipse cx="44" cy="7" rx="3.4" ry="2.3" fill="#FFFFFF" stroke="#FBF3E4" stroke-width="1" transform="rotate(-25 44 7)"/>
+    <ellipse cx="47.6" cy="7.6" rx="3" ry="2" fill="#FFFFFF" stroke="#FBF3E4" stroke-width="1" transform="rotate(20 47.6 7.6)"/>
+    <ellipse cx="45.5" cy="12" rx="5.4" ry="3.7" fill="#F5C451" stroke="#FBF3E4" stroke-width="1.2"/>
+    <path d="M44.6 8.5 V15.5 M47.4 8.7 V15.3" stroke="#3B2A1A" stroke-width="1.4"/>
+    <circle cx="39.6" cy="12" r="2.3" fill="#241A0E" stroke="#FBF3E4" stroke-width="0.9"/>
+    <path d="M50.8 11.4 L53.2 12 L50.8 12.6 Z" fill="#FBF3E4"/>
+  </g>
+</svg>

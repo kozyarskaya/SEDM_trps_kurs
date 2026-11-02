@@ -1,0 +1,6 @@
+index.html|Как работать с программой
+login.html|Вход: фамилия и PIN-код
+baskets.html|Корзины команды
+evaluation.html|Оценивание образцов
+review.html|Мои оценки (просмотр)
+problems.html|Если что-то пошло не так

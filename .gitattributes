@@ -1,0 +1,9 @@
+# Единые окончания строк в репозитории СЭДМ
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.png binary
+*.ico binary
+*.docx binary
+*.pdf binary
+*.xlsx binary

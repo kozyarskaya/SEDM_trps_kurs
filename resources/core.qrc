@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<!-- Ресурсы ядра СЭДМ: сценарий схемы базы данных -->
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file alias="sql/schema.sql">sql/schema.sql</file>
+    </qresource>
+</RCC>

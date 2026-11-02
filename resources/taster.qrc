@@ -1,0 +1,16 @@
+<!DOCTYPE RCC>
+<!-- Ресурсы программы дегустатора: стили крупного шрифта и справка -->
+<RCC version="1.0">
+    <qresource prefix="/taster">
+        <file alias="taster.qss">taster/taster.qss</file>
+    </qresource>
+    <qresource prefix="/help">
+        <file alias="contents.txt">help/taster/contents.txt</file>
+        <file alias="index.html">help/taster/index.html</file>
+        <file alias="login.html">help/taster/login.html</file>
+        <file alias="baskets.html">help/taster/baskets.html</file>
+        <file alias="evaluation.html">help/taster/evaluation.html</file>
+        <file alias="review.html">help/taster/review.html</file>
+        <file alias="problems.html">help/taster/problems.html</file>
+    </qresource>
+</RCC>

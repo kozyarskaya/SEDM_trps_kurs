@@ -1,0 +1,19 @@
+<!DOCTYPE RCC>
+<!-- Ресурсы программы администратора: справка -->
+<RCC version="1.0">
+    <qresource prefix="/help">
+        <file alias="contents.txt">help/admin/contents.txt</file>
+        <file alias="index.html">help/admin/index.html</file>
+        <file alias="setup.html">help/admin/setup.html</file>
+        <file alias="participants.html">help/admin/participants.html</file>
+        <file alias="samples.html">help/admin/samples.html</file>
+        <file alias="baskets.html">help/admin/baskets.html</file>
+        <file alias="teams.html">help/admin/teams.html</file>
+        <file alias="session.html">help/admin/session.html</file>
+        <file alias="monitoring.html">help/admin/monitoring.html</file>
+        <file alias="results.html">help/admin/results.html</file>
+        <file alias="backup.html">help/admin/backup.html</file>
+        <file alias="journal.html">help/admin/journal.html</file>
+        <file alias="problems.html">help/admin/problems.html</file>
+    </qresource>
+</RCC>

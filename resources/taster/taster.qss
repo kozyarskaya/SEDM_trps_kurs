@@ -1,0 +1,52 @@
+/* =============================================================================
+   СЭДМ — дополнительные стили программы дегустатора (макет В1):
+   крупные элементы для возрастных пользователей и сенсорного экрана.
+   ============================================================================= */
+
+QPushButton { min-height: {{48}}px; border-radius: {{10}}px; }
+QPushButton[big="true"] { min-height: {{56}}px; padding: 0 {{22}}px; border-radius: {{12}}px; }
+QPushButton[fontStep="true"] { min-height: {{36}}px; min-width: {{44}}px; padding: 0 {{8}}px; border-radius: {{8}}px; }
+QMenuBar { font-size: {{16}}px; }
+
+/* Вход: фамилия, PIN-код, цифровая клавиатура */
+QLineEdit#loginField { font-size: {{24}}px; min-height: {{52}}px; }
+QLineEdit#pinField { font-size: {{34}}px; min-height: {{56}}px; qproperty-alignment: AlignCenter; }
+QPushButton[pin="true"] { font-size: {{30}}px; font-weight: bold; min-height: {{64}}px; min-width: {{84}}px;
+                          border-radius: {{12}}px; }
+QPushButton[pinAux="true"] { font-size: {{18}}px; font-weight: normal; }
+QPushButton[pinBack="true"] { font-size: {{32}}px; font-weight: normal; }
+
+/* Карточки корзин */
+QPushButton[basket="true"] { background: #FFFFFF; border: 1px solid #E3D6BF; border-radius: {{12}}px; text-align: left;
+                             min-height: {{150}}px; }
+QPushButton[basket="true"]:hover { border: 2px solid #E8A317; background: #FFFCF4; }
+QPushButton[basket="true"]:focus { border: 3px solid #3B2A1A; }
+QPushButton[basket="true"][finished="true"] { background: #F7FAF3; }
+
+/* Список шифров корзины */
+QWidget#sampleList { background: #FFFFFF; }
+QScrollArea#sampleListArea { background: #FFFFFF; border-right: 1px solid #E3D6BF; }
+QPushButton[sample="true"] { background: #FFFFFF; border: 1px solid #E3D6BF; border-radius: {{12}}px; text-align: left;
+                             min-height: {{74}}px; }
+QPushButton[sample="true"]:hover { border-color: #C9B48F; }
+QPushButton[sample="true"]:checked { border: 3px solid #E8A317; background: #FCEFD2; }
+QPushButton[sample="true"]:focus { border: 3px solid #3B2A1A; }
+QLabel[role="cipher"] { font-size: {{30}}px; font-weight: bold; }
+QLabel#sampleCipher { font-size: {{48}}px; font-weight: bold; }
+QLabel[role="sampleStatus"] { font-size: {{16}}px; color: #5E4B37; }
+QLabel[role="sampleStatus"][state="done"] { color: #2E6B30; }
+QLabel[role="sampleStatus"][state="partial"] { color: #8A4B00; }
+
+/* Строки оценок по критериям */
+QFrame[card="row"] { background: #FFFFFF; border: 1px solid #E3D6BF; border-radius: {{12}}px; }
+QLabel[role="criterion"] { font-size: {{20}}px; font-weight: bold; }
+QLineEdit[score="true"] { font-size: {{28}}px; font-weight: bold; qproperty-alignment: AlignCenter;
+                          border: 2px solid #C9B48F; border-radius: {{10}}px;
+                          min-width: {{76}}px; max-width: {{76}}px; min-height: {{52}}px; padding: 0; }
+QLineEdit[score="true"]:focus { border: 2px solid #E8A317; }
+QPushButton[step="true"] { font-size: {{26}}px; min-width: {{52}}px; max-width: {{52}}px; min-height: {{52}}px;
+                           padding: 0; border-radius: {{10}}px; }
+
+/* Нижняя панель окна оценивания */
+QFrame#footer { background: #FFFFFF; border-top: 1px solid #E3D6BF; }
+QFrame#footer QLabel { font-size: {{15}}px; }

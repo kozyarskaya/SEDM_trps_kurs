@@ -1,0 +1,19 @@
+# Результаты сборки и файлы среды разработки
+/build*/
+/out/
+*.user
+*.user.*
+*.autosave
+CMakeLists.txt.user*
+
+# Установщик: результаты сборки (готовый установщик в репозиторий не входит)
+/installer/cache/
+/installer/stage/
+/installer/redist/
+/installer/output/
+/installer/docs/
+
+# Временные файлы
+__pycache__/
+*.pyc
+~$*
